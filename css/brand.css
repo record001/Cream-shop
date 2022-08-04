@@ -1,0 +1,86 @@
+.brand {
+  margin: 40px 0 80px;
+}
+.brand__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.brand__header h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: var(--black);
+}
+.brand__header h2 {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--black);
+}
+.brand__header h2 span {
+  color: var(--blue);
+  display: block;
+  text-decoration: underline dashed 3px;
+  text-underline-offset: 5px;
+}
+.brand__card-wrapper {
+  margin-top: 56px;
+  display: grid;
+  grid-template-columns: 302px 302px 302px 302px;
+  gap: 0 24px;
+  width: 100%;
+  overflow: hidden;
+}
+.brand__card {
+  padding: 37px 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 302px;
+  height: 315px; */
+}
+.brand__card h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--black);
+}
+.brand__card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+
+  text-align: center;
+
+  color: var(--black);
+}
+
+/* media */
+
+@media (max-width: 756px) {
+  .brand__header h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 580px) {
+  .brand__header h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 470px) {
+  .brand__header h2 {
+    font-size: 18px;
+  }
+}

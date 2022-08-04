@@ -1,0 +1,43 @@
+@import "product.css";
+@import "brand.css";
+@import "collections.css";
+@import "ingredient.css";
+@import "feature.css";
+@import "gallery.css";
+@import "partners.css";
+@import "footer.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik";
+}
+:root {
+    --white : #ffffff;
+    --blue: #7373d7;
+    --black: #222222;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  /* width: 1440px; originally 1280 +10+10 padding */
+  /* max-width: 100%; */
+  padding: 0 80px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+}
