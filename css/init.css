@@ -1,11 +1,4 @@
-@import "product.css";
-@import "brand.css";
-@import "collections.css";
-@import "ingredient.css";
-@import "feature.css";
-@import "gallery.css";
-@import "partners.css";
-@import "footer.css";
+
 * {
   margin: 0;
   padding: 0;

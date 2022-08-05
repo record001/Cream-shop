@@ -24,8 +24,20 @@
   text-decoration: underline var(--blue) 2px;
   text-underline-offset: 8px;
 }
-.gallery__card {
+.gallery__card1 {
   height: 837px;
+  background-image: url(../../images/home/white-fur-women.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.gallery__card2 {
+  height: 837px;
+  background-image: url(../../images/home/long-hair-woman.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,12 +47,7 @@
   justify-content: end;
 }
 
-.gallery__card--2 {
-  background-image: url(../images/home/long-hair-woman.png);
-}
-.gallery__card--1 {
-  background-image: url(../images/home/white-fur-women.png);
-}
+
 
 @media (max-width: 1000px) {
   .gallery__card {

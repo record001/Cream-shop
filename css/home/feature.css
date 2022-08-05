@@ -1,5 +1,5 @@
 .feature {
-  background-image: url(../images/home/feature_bg.png);
+  background-image: url(../../images/home/feature_bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -85,7 +85,7 @@
 @media(max-width:550px) {
   .feature {
     position: relative;
-    margin-bottom: 195px;
+    /* margin-bottom: 195px; */
   }
   .feature__info {
     position: absolute;
