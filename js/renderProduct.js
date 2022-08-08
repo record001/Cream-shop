@@ -2,22 +2,7 @@ let productFrag = document.createDocumentFragment();
 
 function renderProduct() {
   productList.forEach((product, index) => {
-    if (index === 6) {
-      let productBannerWrapper = document.createElement("div");
-      productBannerWrapper.classList.add("product__banner-wrapper");
-
-      productBannerWrapper.innerHTML += `
-        <div class="product__banner">
-        <h4>At vero eos et accusamus et iusto odio dignissimos</h4>
-        <p>Winnie Harlow</p>
-      </div>
-
     
-    </div>
-        `;
-
-      productFrag.appendChild(productBannerWrapper);
-    } else {
       let productBox = document.createElement("div");
       productBox.classList.add("product__box");
 
@@ -60,9 +45,10 @@ function renderProduct() {
             `;
 
       productFrag.appendChild(productBox);
-    }
+    
   });
 
+  
   document.querySelector(".product__wrapper").appendChild(productFrag);
 }
 

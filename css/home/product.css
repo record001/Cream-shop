@@ -56,6 +56,7 @@
   /* margin-left: 4%; */
   /* width: 100%; */
 }
+
 .slick-track {
   display: flex;
   position: relative;
@@ -73,6 +74,7 @@
   /* padding: 16px; */
   position: relative;
 }
+
 
 .product__badge--new,
 .product__badge--sale {
@@ -101,14 +103,9 @@
   position: absolute;
   width: 100%;
   top: 15%;
-  left: 10%;
+  left: 0%;
 }
-/* I will come back soon here */
-/* .slider__item:nth-child(2) .card__img {
-  
-  top: 7%;
-  left: 4%;
-} */
+
 .product__details {
   position: absolute;
   bottom: 0px;

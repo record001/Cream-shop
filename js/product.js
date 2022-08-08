@@ -61,7 +61,7 @@ const productList = [
 
     },
     {   
-        id:8,
+        id:7,
         img: "./images/plp/pro1.png",
         price: "$28.00",
         old_price: "",
@@ -71,7 +71,7 @@ const productList = [
 
     },
     {   
-        id:8,
+        id:7,
         img: "./images/plp/pro1.png",
         price: "$28.00",
         old_price: "",
@@ -81,7 +81,7 @@ const productList = [
 
     },
     {   
-        id:8,
+        id:7,
         img: "./images/plp/pro1.png",
         price: "$28.00",
         old_price: "",
@@ -90,6 +90,79 @@ const productList = [
         sale:false
 
     },
+    {   
+        id:1,
+        img: "./images/plp/pro1.png",
+        price: "$28.00",
+        old_price: "",
+        description: "Your Skin But Better CC+ Cream SPF50 12ml",
+        new: true,
+        sale:false
+
+    },
+    {   
+        id:2,
+        img: "./images/plp/pro2.png",
+        price: "$28.00",
+        old_price: " $32.00",
+        description: "KEM DUONG VT CICA - VT CICA CREAM",
+        new: false,
+        sale:true
+
+    },
+    {   
+        id:7,
+        img: "./images/plp/pro1.png",
+        price: "$28.00",
+        old_price: "",
+        description: "Niche Beauty CCC Cream – Niche Beauty",
+        new: false,
+        sale:false
+
+    },
+    {   
+        id:7,
+        img: "./images/plp/pro1.png",
+        price: "$28.00",
+        old_price: "",
+        description: "Niche Beauty CCC Cream – Niche Beauty",
+        new: false,
+        sale:false
+
+    },
+    {   
+        id:7,
+        img: "./images/plp/pro1.png",
+        price: "$28.00",
+        old_price: "",
+        description: "Niche Beauty CCC Cream – Niche Beauty",
+        new: false,
+        sale:false
+
+    },
+    {   
+        id:7,
+        img: "./images/plp/pro1.png",
+        price: "$28.00",
+        old_price: "",
+        description: "Niche Beauty CCC Cream – Niche Beauty",
+        new: false,
+        sale:false
+
+    },
+    {   
+        id:7,
+        img: "./images/plp/pro1.png",
+        price: "$28.00",
+        old_price: "",
+        description: "Niche Beauty CCC Cream – Niche Beauty",
+        new: false,
+        sale:false
+
+    },
+  
+  
+    
     
    
 ]
@@ -130,6 +203,46 @@ const products = [
         price: "$28.00",
         old_price: "",
         description: "Niche Beauty CCC Cream – Niche Beauty",
+        new: false,
+        sale:false
+
+    },
+    {   
+        id:4,
+        img: "./images/home/product3.svg",
+        price: "$28.00",
+        old_price: "",
+        description: "Niche Beauty CCC Cream – Niche Beauty1",
+        new: false,
+        sale:false
+
+    },
+    {   
+        id:4,
+        img: "./images/home/product3.svg",
+        price: "$28.00",
+        old_price: "",
+        description: "Niche Beauty CCC Cream – Niche Beauty1",
+        new: false,
+        sale:false
+
+    },
+    {   
+        id:4,
+        img: "./images/home/product3.svg",
+        price: "$28.00",
+        old_price: "",
+        description: "Niche Beauty CCC Cream – Niche Beauty1",
+        new: false,
+        sale:false
+
+    },
+    {   
+        id:4,
+        img: "./images/home/product3.svg",
+        price: "$28.00",
+        old_price: "",
+        description: "Niche Beauty CCC Cream – Niche Beauty1",
         new: false,
         sale:false
 

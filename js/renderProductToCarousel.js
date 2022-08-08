@@ -1,7 +1,7 @@
 // render products to carousel
-let product_wrapper =document.querySelector(".slider")
 
 function renderProductsToCarousel() {
+  let product_wrapper =document.querySelector(".slider")
   products.forEach(item => {
     product_wrapper.innerHTML += `
     <div class=" slider__item">
@@ -29,7 +29,9 @@ function renderProductsToCarousel() {
   </div>
     `
     
+    
   });
 }
 
 renderProductsToCarousel()
+

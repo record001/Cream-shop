@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/67f25412d3.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/init.css" />
+    <link rel="stylesheet" href="./css/pdp.css" />
+
+    <!-- pdp product slider -->
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css" />
+
+    <script src="./js/product.js" defer></script>
+    <script src="./js/modal.js" defer></script>
+    <script src="./js/renderProductToCarousel1.js" defer></script>
+    <script src="./js/pdp.js" defer></script>
+
+    <title>Cream shop | Product Detail</title>
+  </head>
+  <body>
+    <div class="modal">
+      <ul class="modal__menu">
+        <li class="modal__item"><a class="modal__link" href="#!">Shop</a></li>
+        <li class="modal__item"><a class="modal__link" href="#!">About</a></li>
+        <li class="modal__item">
+          <a class="modal__link" href="#!">Suncare 101</a>
+        </li>
+        <li class="modal__item">
+          <a class="modal__link" href="#!">Account</a>
+        </li>
+        <li class="modal__item"><a class="modal__link" href="#!">Search</a></li>
+      </ul>
+    </div>
+
+    <header class="header header--pdp">
+      <div class="container">
+        <div class="header__top-color">
+          <div class="header__top">
+            <p class="header__desc">Free Shipping for all orders over $100</p>
+
+            <hr class="header__hr" />
+            <nav class="header__nav nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">Shop</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">About</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">Suncare 101</a>
+                </li>
+              </ul>
+
+              <div class="header__menu-btn" id="open-modal">MENU</div>
+
+              <a href="#!"
+                ><img
+                  class="nav__logo"
+                  src="./images/pdp/logo-black.svg"
+                  alt="heade logo"
+              /></a>
+
+              <div class="header__cart-btn">CART(0)</div>
+
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">Account</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">Search</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">Cart (0)</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="product-detail-wrapper">
+        <div class="container">
+          <div class="product-detail-nav">
+            <a href="#!">Home</a>
+            <a href="#!">Best Seller</a>
+            <a href="#!">Universal Mineral Face Lotion SPF55</a>
+          </div>
+
+          <div class="product-detail__body">
+            <div class="product-detail__images">
+              <div class="images__list">
+                <img
+                  id="1"
+                  class="product-img"
+                  src="./images/plp/pro1.png"
+                  alt="Cream"
+                />
+                <img
+                  id="2"
+                  class="product-img"
+                  src="./images/plp/pro2.png"
+                  alt="Cream"
+                />
+                <img
+                  id="3"
+                  class="product-img"
+                  src="./images/home/curly-haired-woman.png"
+                  alt="curly-haired-woman"
+                />
+                <img
+                  id="4"
+                  class="product-img"
+                  src="./images/home/smiling-girls.png"
+                  alt="curly-haired-woman"
+                />
+                <img
+                  id="5"
+                  class="product-img"
+                  src="./images/home/white-fur-women.png"
+                  alt="curly-haired-woman"
+                />
+              </div>
+              <div class="product-img-banner">
+                <img
+                  src="./images/home/white-fur-women.png"
+                  alt="curly-haired-woman"
+                />
+              </div>
+            </div>
+
+            <div class="product-detail">
+              <h2 class="product__title1">
+                Niche Beauty CCC Cream – Niche Beauty
+              </h2>
+
+              <span class="product__price">$28.00 </span>
+              <p class="product__desc">
+                <span
+                  >The original, weightless, scentless sunscreen with SPF 55
+                  that leaves a shinny finish.</span
+                >
+                Formulated with the most sensitive and vulnerable in mind, with
+                a custom blend of natural, gentle and hydrating island
+                ingredients mixed with the most effective skincare-grade
+                actives.
+              </p>
+
+              <h4>Size <span>50ml</span></h4>
+
+              <div class="product__size-wrapper">
+                <span>1.7 fl oz</span>
+                <span>2.5 fl oz</span>
+                <span>3.4 fl oz</span>
+              </div>
+
+              <div class="product__select-price">
+                <label for="on-time">
+                  <input type="radio" id="on-time" /> $28.00 One time purchase
+                </label>
+
+                <label for="save">
+                  <input type="radio" id="save" />$25.99 Subscribe and save.
+                  <a href="#!">Details</a></label
+                >
+              </div>
+
+              <div class="product__add-to-cart">
+                <div class="product__add-to-cart-ctrl">
+                  <i id="minus" class="fa-solid fa-minus"></i>
+                  <span id="count">1</span>
+                  <i id="plus" class="fa-solid fa-plus"></i>
+                </div>
+                <button class="product__add-to-cart-btn">
+                  Add to cart - $28.00
+                </button>
+              </div>
+
+              <p class="product__add-to-cart-desc">
+                Starting at $20/mo with
+                <img src="./images/pdp/affirm_logo.svg" alt="affirm_logo" />
+                <a href="#!">Learn more</a>
+              </p>
+
+              <div class="product__QA">
+                <div class="product__question">
+                  <p>Use Instruction</p>
+                  <i id="open-ans" class="fa-sol1 fa-solid fa-plus"></i>
+                  <i id="close-ans" class="fa-sol1 fa-solid fa-minus dn"></i>
+                </div>
+                <div class="product__answer">
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="product__question">
+                  <p>Ingredients</p>
+                  <i id="open-ans" class="fa-sol1 fa-solid fa-plus"></i>
+                  <i id="close-ans" class="fa-sol1 fa-solid fa-minus dn"></i>
+                </div>
+                <div class="product__answer">
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="product__question">
+                  <p>Shipping and Returns</p>
+                  <i id="open-ans" class="fa-sol1 fa-solid fa-plus"></i>
+                  <i id="close-ans" class="fa-sol1 fa-solid fa-minus dn"></i>
+                </div>
+                <div class="product__answer">
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="product__question">
+                  <p>How to Recycle</p>
+                  <i id="open-ans" class="fa-sol1 fa-solid fa-plus"></i>
+                  <i id="close-ans" class="fa-sol1 fa-solid fa-minus dn"></i>
+                </div>
+                <div class="product__answer">
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="banner">
+        <div class="banner__ingredients ingredients">
+          <h2>Ingredients</h2>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident.
+          </p>
+
+          <div class="ingredients__card-wrpapper">
+            <div class="ingredients__card">
+              <img
+                src="./images/pdp/hydrating-nectar.svg"
+                alt="hydrating-nectar"
+              />
+              <h4>Hydrating Nectar</h4>
+            </div>
+
+            <div class="ingredients__card">
+              <img
+                src="./images/pdp/aloe-steam-cells.svg"
+                alt="aloe-steam-cells"
+              />
+              <h4>Aloe steam cells</h4>
+            </div>
+
+            <div class="ingredients__card">
+              <img src="./images/pdp/seamoss.svg" alt="seamoss" />
+              <h4>Seamoss</h4>
+            </div>
+
+            <div class="ingredients__card">
+              <img src="./images/pdp/niacinamide.svg" alt="niacinamide" />
+              <h4>Niacinamide</h4>
+            </div>
+
+            <div class="ingredients__card">
+              <img src="./images/pdp/almond-oil.svg" alt="almond-oil" />
+              <h4>Almond oil</h4>
+            </div>
+
+            <div class="ingredients__card">
+              <img src="./images/pdp/grapeseed-oil.svg" alt="grapeseed-oil" />
+              <h4>Grapeseed oil</h4>
+            </div>
+          </div>
+
+          <a href="#!">Full Ingredient glossary</a>
+        </div>
+
+        <div class="banner__image">
+          <img
+            src="./images/pdp/yellow-hair-woman.png"
+            alt="yellow-hair-woman"
+          />
+        </div>
+      </section>
+
+      <section class="product-slider">
+        <div class="container">
+          <div class="product-slider__header">
+            <h2>You might also like</h2>
+
+                  
+          </div>
+        </div>
+        <div class="owl-slider-wrapper">
+          <div class="owl-carousel owl-theme">
+          
+          </div>
+        </div>
+        
+
+      </section>
+
+      <section class="result-slider">
+        <div class="container">
+            
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="#!"
+        ><img
+          class="footer__massage"
+          src="./images/home/massage.svg"
+          alt="massage"
+      /></a>
+
+      <div class="container">
+        <div class="footer__body">
+          <div class="footer__address">
+            <h2>Join the club</h2>
+            <p>
+              Keep up with our new releases, beauty tips and what Winnie’s been
+              up to.
+            </p>
+
+            <div class="footer__address__email">
+              <input type="email" placeholder="Email Address" />
+              <img
+                src="./images/home/arrow-to-right.svg"
+                alt="arrow-to-right"
+              />
+            </div>
+
+            <div class="footer__icons-wrapper">
+              <div class="icon">
+                <a href="#!"
+                  ><img src="./images/home/facebook.svg" alt="facebook"
+                /></a>
+              </div>
+              <div class="icon">
+                <a href="#!"
+                  ><img src="./images/home/twitter.svg" alt="twitter"
+                /></a>
+              </div>
+              <div class="icon">
+                <a href="#!"
+                  ><img src="./images/home/instagram.svg" alt="instagram"
+                /></a>
+              </div>
+            </div>
+
+            <ul class="footer__policy">
+              <li><a href="#!">© 2021 Cream Shop</a></li>
+              <li><a href="#!">Terms and conditions</a></li>
+              <li><a href="#!">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__nav">
+            <div class="footer__list">
+              <h4>Shop</h4>
+              <ul>
+                <li><a href="#!">Shop All</a></li>
+                <li><a href="#!">Best Sellers</a></li>
+                <li><a href="#!">Universal Mineral</a></li>
+                <li><a href="#!">Isie Glow to Isle</a></li>
+                <li><a href="#!">Deepwater</a></li>
+                <li><a href="#!">Winne Selects</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__list">
+              <h4>Learn</h4>
+              <ul>
+                <li><a href="#!">About Us</a></li>
+                <li><a href="#!">Ingredient Glossary</a></li>
+                <li><a href="#!">Sun Care 101</a></li>
+                <li><a href="#!">Our Journey</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__list">
+              <h4>Customer</h4>
+              <ul>
+                <li><a href="#!">Contact Us</a></li>
+                <li><a href="#!">Help/FAQ</a></li>
+                <li><a href="#!">My Account</a></li>
+                <li><a href="#!">Shipping and Return</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <ul class="footer__policy footer__policy--mob">
+            <li><a href="#!">© 2021 Cream Shop</a></li>
+            <div class="footer__policy--last">
+              <li><a href="#!">Terms and conditions</a></li>
+              <li><a href="#!">Privacy Policy</a></li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- script -->
+
+
+    <!-- product slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    
+  </body>
+</html>

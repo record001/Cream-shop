@@ -82,7 +82,7 @@
           </div>
         </div>
 
-        <div class="header__content">
+        <div class="header__content ">
           <h1 class="header__title">Lorem ipsum</h1>
           <p class="header__subtitle">
             At vero eos et accusamus et iusto odio dignissimos ducimus qui
@@ -91,6 +91,7 @@
         </div>
       </div>
     </header>
+
     <main>
       <section class="product">
         <div class="container">
@@ -102,12 +103,21 @@
               >Best Seller</a
             >
           </div>
+          
+          <div class="product__header">
+            <div class="product__vision-controllers">
+              <img src="./images/plp/list-icon.svg" alt="list-icon">
+              <img src="./images/plp/list-icon1.svg" alt="list-icon">
+            </div>
+  
+            <select class="product__sort">
+              <option value="1" disabled selected>Sort By</option>
+              <option value="2">Sort By Name</option>
+              <option value="3">Sort By Price</option>
+            </select>
+          </div>
 
-          <select class="product__sort">
-            <option value="1" disabled selected>Sort By</option>
-            <option value="2">Sort By Name</option>
-            <option value="3">Sort By Price</option>
-          </select>
+          
 
           <div class="product__wrapper">
             <!-- <div class="product__box">
@@ -132,41 +142,21 @@
                 <h4 class="product__price">$28.00 <span>$32.00</span></h4>
               </div>
             </div> -->
-
-          
-
-            <!-- <div class="product__banner-wrapper">
+            <div class="product__banner-wrapper">
               <div class="product__banner">
                 <h4>At vero eos et accusamus et iusto odio dignissimos</h4>
                 <p>Winnie Harlow</p>
               </div>
-
-              <div class="product__box">
-                <div class="product__info">
-                  <span class="product__label product__label--new">new</span>
-                  <span class="product__label product__label--sale">sale</span>
   
-                  <img
-                    src="./images/plp/pro1.png"
-                    alt="product__image"
-                    class="product__image"
-                  />
-  
-                  <a href="#!" class="product__cta">+ Quick Shop</a>
-                </div>
-                <div class="product__details">
-                  <h2 class="product__title">
-                    Your Skin But Better CC+ Cream with SPF50 12ml
-                  </h2>
-                  <h4 class="product__price">$28.00 <span>$32.00</span></h4>
-                </div>
-              </div>
-
-            </div> -->
+            
+            </div>
           </div>
+
+         
+          <span class="product__counter">Showing 16 of 23</span>
+          <button class="product__more-btn">load more</button>
         </div>
       </section>
-
     </main>
 
     <footer class="footer">
