@@ -29,7 +29,7 @@ function renderProduct() {
               class="product__image"
             />
 
-            <a href="#!" class="product__cta">+ Quick Shop</a>
+            <a href="./pdp.html" class="product__cta">+ Quick Shop</a>
           </div>
           <div class="product__details">
             <h2 class="product__title">
