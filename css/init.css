@@ -29,8 +29,8 @@ a {
 .container {
   /* width: 1440px; originally 1280 +10+10 padding */
   /* max-width: 100%; */
-  padding: 0 80px;
+  padding: 0 10px;
   margin: 0 auto;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1300px;
 }

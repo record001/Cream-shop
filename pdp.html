@@ -22,7 +22,15 @@
 
     <!-- pdp product slider -->
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css" />
-    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="owlcarousel/assets/owl.theme.default.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
 
     <script src="./js/product.js" defer></script>
     <script src="./js/modal.js" defer></script>
@@ -97,51 +105,116 @@
     <main>
       <section class="product-detail-wrapper">
         <div class="container">
-          <div class="product-detail-nav">
+          <div class="product-detail__breadcrumbs">
             <a href="#!">Home</a>
             <a href="#!">Best Seller</a>
             <a href="#!">Universal Mineral Face Lotion SPF55</a>
           </div>
 
           <div class="product-detail__body">
-            <div class="product-detail__images">
-              <div class="images__list">
-                <img
-                  id="1"
-                  class="product-img"
-                  src="./images/plp/pro1.png"
-                  alt="Cream"
-                />
-                <img
-                  id="2"
-                  class="product-img"
-                  src="./images/plp/pro2.png"
-                  alt="Cream"
-                />
-                <img
-                  id="3"
-                  class="product-img"
-                  src="./images/home/curly-haired-woman.png"
-                  alt="curly-haired-woman"
-                />
-                <img
-                  id="4"
-                  class="product-img"
-                  src="./images/home/smiling-girls.png"
-                  alt="curly-haired-woman"
-                />
-                <img
-                  id="5"
-                  class="product-img"
-                  src="./images/home/white-fur-women.png"
-                  alt="curly-haired-woman"
-                />
+            <div class="galary">
+              <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img id="1" src="./images/plp/pro1.png" alt="Cream" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img id="1" src="./images/plp/pro2.png" alt="Cream" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      id="3"
+                      src="./images/home/curly-haired-woman.png"
+                      alt="curly-haired-woman"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      id="4"
+                      src="./images/home/smiling-girls.png"
+                      alt="curly-haired-woman"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      id="4"
+                      src="./images/home/smiling-girls.png"
+                      alt="curly-haired-woman"
+                    />
+                  </div>
+                </div>
               </div>
-              <div class="product-img-banner">
-                <img
-                  src="./images/home/white-fur-women.png"
-                  alt="curly-haired-woman"
-                />
+
+              <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img id="1" src="./images/plp/pro1.png" alt="Cream" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img id="1" src="./images/plp/pro2.png" alt="Cream" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      id="3"
+                      src="./images/home/curly-haired-woman.png"
+                      alt="curly-haired-woman"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      id="4"
+                      src="./images/home/smiling-girls.png"
+                      alt="curly-haired-woman"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      id="4"
+                      src="./images/home/smiling-girls.png"
+                      alt="curly-haired-woman"
+                    />
+                  </div>
+                </div>
+                <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+              </div>
+            </div>
+
+            <div class="galary--mobile">
+              <div class="swiper mySwiper--mob">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img id="1" src="./images/plp/pro1.png" alt="Cream" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img id="1" src="./images/plp/pro2.png" alt="Cream" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      id="3"
+                      src="./images/home/curly-haired-woman.png"
+                      alt="curly-haired-woman"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      id="4"
+                      src="./images/home/smiling-girls.png"
+                      alt="curly-haired-woman"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      id="4"
+                      src="./images/home/smiling-girls.png"
+                      alt="curly-haired-woman"
+                    />
+                  </div>
+                
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
               </div>
             </div>
 
@@ -199,7 +272,7 @@
               </p>
 
               <div class="product__QA">
-                <div class="product__question">
+                 <div class="product__question">
                   <p>Use Instruction</p>
                   <i id="open-ans" class="fa-sol1 fa-solid fa-plus"></i>
                   <i id="close-ans" class="fa-sol1 fa-solid fa-minus dn"></i>
@@ -233,8 +306,13 @@
                 </div>
                 <div class="product__answer">
                   <p>Lorem ipsum dolor sit amet.</p>
-                </div>
+                </div> 
+
+
+                   
               </div>
+
+              
             </div>
           </div>
         </div>
@@ -256,6 +334,7 @@
                 alt="hydrating-nectar"
               />
               <h4>Hydrating Nectar</h4>
+              <img class="drop_down" src="./images/pdp/drop_down.svg" alt="drop_down">
             </div>
 
             <div class="ingredients__card">
@@ -264,26 +343,31 @@
                 alt="aloe-steam-cells"
               />
               <h4>Aloe steam cells</h4>
+              <img class="drop_down" src="./images/pdp/drop_down.svg" alt="drop_down">
             </div>
 
             <div class="ingredients__card">
               <img src="./images/pdp/seamoss.svg" alt="seamoss" />
               <h4>Seamoss</h4>
+              <img class="drop_down" src="./images/pdp/drop_down.svg" alt="drop_down">
             </div>
 
             <div class="ingredients__card">
               <img src="./images/pdp/niacinamide.svg" alt="niacinamide" />
               <h4>Niacinamide</h4>
+              <img class="drop_down" src="./images/pdp/drop_down.svg" alt="drop_down">
             </div>
 
             <div class="ingredients__card">
               <img src="./images/pdp/almond-oil.svg" alt="almond-oil" />
               <h4>Almond oil</h4>
+              <img class="drop_down" src="./images/pdp/drop_down.svg" alt="drop_down">
             </div>
 
             <div class="ingredients__card">
               <img src="./images/pdp/grapeseed-oil.svg" alt="grapeseed-oil" />
               <h4>Grapeseed oil</h4>
+              <img class="drop_down" src="./images/pdp/drop_down.svg" alt="drop_down">
             </div>
           </div>
 
@@ -302,23 +386,16 @@
         <div class="container">
           <div class="product-slider__header">
             <h2>You might also like</h2>
-
-                  
           </div>
         </div>
         <div class="owl-slider-wrapper">
-          <div class="owl-carousel owl-theme">
-          
-          </div>
+          <div class="owl-carousel owl-theme"></div>
         </div>
-        
-
       </section>
 
       <section class="result-slider">
         <div class="container">
-           <div class="result-slider__body">
-
+          <div class="result-slider__body">
             <div class="result-slider__header">
               <h4>The results</h4>
               <h2>From our customers</h2>
@@ -326,15 +403,27 @@
 
             <div class="result-slider__wrapper">
               <div class="owl-carousel owl-theme">
-                <div class="item"><h4>1</h4></div>
-                <div class="item"><h4>2</h4></div>
-                <div class="item"><h4>3</h4></div>
-                <div class="item"><h4>4</h4></div>
-                <div class="item"><h4>5</h4></div>
-                
+                <div class="item">
+                  <img
+                    src="./images/pdp/masking-hands.jpg"
+                    alt="masking-hands"
+                  />
+                </div>
+                <div class="item">
+                  <img src="./images/pdp/mask-hands1.jpg" alt="masking-hands" />
+                </div>
+                <div class="item">
+                  <img src="./images/pdp/aroma.jpg" alt="aroma" />
+                </div>
+                <div class="item">
+                  <img
+                    src="./images/pdp/masking-hands.jpg"
+                    alt="masking-hands"
+                  />
+                </div>
               </div>
             </div>
-           </div>
+          </div>
         </div>
       </section>
     </main>
@@ -436,11 +525,53 @@
 
     <!-- script -->
 
-
     <!-- product slider -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <script src="owlcarousel/owl.carousel.min.js"></script>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+    </script>
+
+    <!-- swiper for mobile -->
+    <script>
+      var swiper = new Swiper(".mySwiper--mob", {
+        cssMode: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
   </body>
 </html>

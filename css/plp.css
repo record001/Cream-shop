@@ -232,7 +232,6 @@ html {
   .header__subtitle {
     display: block;
   }
-
 }
 @media (max-width: 600px) {
   /* .header--plp {
@@ -240,7 +239,6 @@ html {
   } */
   .product__vision-controllers {
     opacity: 1;
-    
   }
   .product__wrapper {
     grid-template-columns: 100%;
@@ -258,7 +256,11 @@ html {
   }
   .footer__policy {
     width: 29.8rem;
-   
+  }
 }
+@media (max-width: 400px) {
+  .header--plp  {
+    background-position: 38%;
+  }
   
 }

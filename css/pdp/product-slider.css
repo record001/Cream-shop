@@ -15,15 +15,8 @@
 
   color: var(--black);
 }
-.product-slider__controllers i {
-  display: inline-block;
-  color: #9b9b9b;
-  font-size: 40px;
-  cursor: pointer;
-}
-.product-slider__controllers i:hover {
-  color: var(--blue);
-}
+
+
 .owl-slider-wrapper {
   width: 100%;
   padding-left: 12.2rem;
@@ -47,10 +40,13 @@
   height: 3.5rem;
   background-color: #9b9b9b !important;
   border-radius: 50% !important;
-  color: var(--white);
   margin: 0 !important;
-  font-size: 2rem;
   padding: 0 !important;
+}
+.owl-nav button span {
+  color: var(--white);
+  font-size: 2rem;
+
 }
 .owl-nav button:hover {
   background-color: var(--blue) !important;

@@ -1,21 +1,5 @@
 // render images to PDP section
-function renderProductImg() {
-    let productImages= document.querySelectorAll(".product-img")
-    let producImgBanner = document.querySelector(".product-img-banner")
 
-    productImages.forEach(item => {
-        item.addEventListener("click", (e)=> {
-            producImgBanner.innerHTML =`
-            <img
-            src="${e.target.src}"
-            alt="curly-haired-woman"
-          />
-            `
-        })
-    })
-
-}   
-renderProductImg()
 
 
 // action counter

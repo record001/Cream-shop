@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/67f25412d3.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/init.css" />
+    <link rel="stylesheet" href="./css/cart.css" />
+
+    <script src="./js/modal.js" defer></script>
+    <script src="./js/cart.js" defer></script>
+
+    <title>Cream shop | Cart</title>
+  </head>
+  <body>
+    <div class="modal">
+      <ul class="modal__menu">
+        <li class="modal__item"><a class="modal__link" href="#!">Shop</a></li>
+        <li class="modal__item"><a class="modal__link" href="#!">About</a></li>
+        <li class="modal__item">
+          <a class="modal__link" href="#!">Suncare 101</a>
+        </li>
+        <li class="modal__item">
+          <a class="modal__link" href="#!">Account</a>
+        </li>
+        <li class="modal__item"><a class="modal__link" href="#!">Search</a></li>
+      </ul>
+    </div>
+
+    <header class="header header--cart">
+      <div class="container">
+        <div class="header__top-color">
+          <div class="header__top">
+            <p class="header__desc">Free Shipping for all orders over $100</p>
+
+            <hr class="header__hr" />
+            <nav class="header__nav nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">Shop</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">About</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">Suncare 101</a>
+                </li>
+              </ul>
+
+              <div class="header__menu-btn" id="open-modal">MENU</div>
+
+              <a href="#!"
+                ><img
+                  class="nav__logo"
+                  src="./images/pdp/logo-black.svg"
+                  alt="heade logo"
+              /></a>
+
+              <div class="header__cart-btn">CART(0)</div>
+
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">Account</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">Search</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">Cart (0)</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="cart">
+        <div class="container">
+          <div class="cart__breadcrumbs">
+            <a href="#!">Home</a>
+            <a href="#!">My Cart</a>
+          </div>
+          <h2>My Cart</h2>
+          <img
+            class="cart__shipping-bar__img"
+            src="./images/cart/Shipping bar.svg"
+            alt="Shipping bar"
+          />
+
+          <a class="cart__shipping-bar__link" href="#!"
+            >$12.00 away from Free Shipping</a
+          >
+
+          <div class="cart__body">
+            <div class="cart__headline">
+              <span>Product</span>
+              <span>Price</span>
+              <span>Quantity</span>
+              <span>Total</span>
+            </div>
+
+            <div class="cart__product-details cart__product">
+              <div class="cart__product__img">
+                <img src="./images/plp/pro3.svg" alt="pro3" />
+              </div>
+
+              <div class="cart__product__info">
+                <div class="cart__product__title-wrapper">
+                  <h4 class="cart__product__title">
+                    Universal mineral face lotion SPF55
+                  </h4>
+                  <p>Size: 1.7 fl oz</p>
+                  <p>One Time Purchase</p>
+                  <a class="remove-cart" href="#!">Remove</a>
+                </div>
+
+                <h4 class="cart__product__price">$28.00 </h4>
+                <div class="cart__product__qty">
+                  <i id="minus" class="fa-solid fa-minus"></i>
+                  <span id="count" class="count">1</span>
+                  <i id="plus" class="fa-solid fa-plus"></i>
+                </div>
+
+                <a class="remove-cart--mob" href="#!">Remove</a>
+
+
+                <h4 class="cart__product__price total">$28.00 </h4>
+
+              </div>
+
+
+            </div>
+            
+            <div class="cart__product-details cart__product">
+              <div class="cart__product__img">
+                <img src="./images/plp/pro3.svg" alt="pro3" />
+              </div>
+
+              <div class="cart__product__info">
+                <div class="cart__product__title-wrapper">
+                  <h4 class="cart__product__title">
+                    Deepwater Dew Body Serum
+                  </h4>
+                  <p>Size: 3.4 fl oz</p>
+                  <p>One Time Purchase</p>
+                  <a class="remove-cart"  href="#!">Remove</a>
+                </div>
+
+                <h4 class="cart__product__price">$28.00 </h4>
+                <div class="cart__product__qty">
+                  <i id="minus" class="fa-solid fa-minus"></i>
+                  <span id="count" class="count">1</span>
+                  <i id="plus" class="fa-solid fa-plus"></i>
+                </div>
+                <a class="remove-cart--mob" href="#!">Remove</a>
+
+                <h4 class="cart__product__price total">$28.00 </h4>
+
+              </div>
+
+
+            </div>
+            <div class="cart__product-details cart__product">
+              <div class="cart__product__img">
+                <img src="./images/plp/pro3.svg" alt="pro3" />
+              </div>
+
+              <div class="cart__product__info">
+                <div class="cart__product__title-wrapper">
+                  <h4 class="cart__product__title">
+                    Isle Glow Face Lotion SPF45
+                  </h4>
+                  <p>Size: 1.5 fl oz</p>
+                  <p>One Time Purchase</p>
+                  <a class="remove-cart"  href="#!">Remove</a>
+                </div>
+
+                <h4 class="cart__product__price">$28.00 </h4>
+                <div class="cart__product__qty">
+                  <i id="minus" class="fa-solid fa-minus"></i>
+                  <span id="count" class="count">1</span>
+                  <i id="plus" class="fa-solid fa-plus"></i>
+                </div>
+                <a class="remove-cart--mob" href="#!">Remove</a>
+
+                <h4 class="cart__product__price total">$28.00 </h4>
+
+              </div>
+
+
+            </div>
+            <div class="cart__product-details cart__product">
+              <div class="cart__product__img">
+                <img src="./images/plp/pro3.svg" alt="pro3" />
+              </div>
+
+              <div class="cart__product__info">
+                <div class="cart__product__title-wrapper">
+                  <h4 class="cart__product__title">
+                    Isle Lip Balm SPF30
+                  </h4>
+                  <p>Size: 0.5 fl oz</p>
+                  <p>(100% OFF)</p>
+                  <a class="remove-cart" href="#!">Remove</a>
+                </div>
+
+                <h4 class="cart__product__price">$28.00 </h4>
+                <div class="cart__product__qty">
+                  <i id="minus" class="fa-solid fa-minus"></i>
+                  <span id="count" class="count">1</span>
+                  <i id="plus" class="fa-solid fa-plus"></i>
+                </div>
+                <a class="remove-cart--mob" href="#!">Remove</a>
+
+                <h4 class="cart__product__price total">$28.00 </h4>
+
+              </div>
+
+
+            </div>
+
+
+
+          </div>
+
+          <div class="cart__checkout">
+            <div class="cart__order-notes">
+                <p>Order Notes</p>
+
+                <textarea placeholder="Type Message..."></textarea>
+            </div>
+
+            <div class="cart__total-price-calc">
+                <div class="cart__subtotal-price d-f">
+                    <h4>Subtotal</h4>
+                    <h4>$112.00</h4>   
+                </div>
+                <p>Shipping and tax calculated at checkout.</p>
+
+                <div class="cart__auto-discount d-f">
+                    
+                    <h4><img src="./images/cart/discount.svg" alt="discount">Auto</h4>
+                    <h4>-$10.00</h4>
+                    
+                </div>
+
+                <div class="cart__total-price d-f">
+                    <h3>Total</h3>
+                    <h3>$102.00</h3>
+                </div>
+
+                <button class="cart__secure-btn">Secure Checkout</button>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+    </main>
+    <footer class="footer">
+      <a href="#!"
+        ><img
+          class="footer__massage"
+          src="./images/home/massage.svg"
+          alt="massage"
+      /></a>
+
+      <div class="container">
+        <div class="footer__body">
+          <div class="footer__address">
+            <h2>Join the club</h2>
+            <p>
+              Keep up with our new releases, beauty tips and what Winnie’s been
+              up to.
+            </p>
+
+            <div class="footer__address__email">
+              <input type="email" placeholder="Email Address" />
+              <img
+                src="./images/home/arrow-to-right.svg"
+                alt="arrow-to-right"
+              />
+            </div>
+
+            <div class="footer__icons-wrapper">
+              <div class="icon">
+                <a href="#!"
+                  ><img src="./images/home/facebook.svg" alt="facebook"
+                /></a>
+              </div>
+              <div class="icon">
+                <a href="#!"
+                  ><img src="./images/home/twitter.svg" alt="twitter"
+                /></a>
+              </div>
+              <div class="icon">
+                <a href="#!"
+                  ><img src="./images/home/instagram.svg" alt="instagram"
+                /></a>
+              </div>
+            </div>
+
+            <ul class="footer__policy">
+              <li><a href="#!">© 2021 Cream Shop</a></li>
+              <li><a href="#!">Terms and conditions</a></li>
+              <li><a href="#!">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__nav">
+            <div class="footer__list">
+              <h4>Shop</h4>
+              <ul>
+                <li><a href="#!">Shop All</a></li>
+                <li><a href="#!">Best Sellers</a></li>
+                <li><a href="#!">Universal Mineral</a></li>
+                <li><a href="#!">Isie Glow to Isle</a></li>
+                <li><a href="#!">Deepwater</a></li>
+                <li><a href="#!">Winne Selects</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__list">
+              <h4>Learn</h4>
+              <ul>
+                <li><a href="#!">About Us</a></li>
+                <li><a href="#!">Ingredient Glossary</a></li>
+                <li><a href="#!">Sun Care 101</a></li>
+                <li><a href="#!">Our Journey</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__list">
+              <h4>Customer</h4>
+              <ul>
+                <li><a href="#!">Contact Us</a></li>
+                <li><a href="#!">Help/FAQ</a></li>
+                <li><a href="#!">My Account</a></li>
+                <li><a href="#!">Shipping and Return</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <ul class="footer__policy footer__policy--mob">
+            <li><a href="#!">© 2021 Cream Shop</a></li>
+            <div class="footer__policy--last">
+              <li><a href="#!">Terms and conditions</a></li>
+              <li><a href="#!">Privacy Policy</a></li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

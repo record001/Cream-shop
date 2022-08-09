@@ -173,4 +173,8 @@
     justify-content: start;
     align-items: flex-start;
   }
+  .footer__policy {
+    width: 350px;
+   
+}
 }

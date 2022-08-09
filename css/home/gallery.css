@@ -85,3 +85,15 @@
     font-size: 13px;
   }
 }
+
+@media (max-width: 400px) {
+  .gallery__card1 {
+    height: 475px;
+  }
+  .gallery__card2 {
+    height: 475px;
+  }
+  .gallery {
+    padding: 274px 0 40px;
+  }
+}
